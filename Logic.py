@@ -16,12 +16,12 @@ from Vocabulary import Vocabulary, Vocabulary_Output, Word, WordType, DailyPerfo
 
 class Logic:
     
-    vocabListFile = 'Vocabulary\\data\\VocabList.pkl'
-    currNewVocabsFile = 'Vocabulary\\data\\CurrNewVocab.pkl'
-    currRevVocabsFile = 'Vocabulary\\data\\CurrRevVocab.pkl'
-    uniVocabularyFile = 'Vocabulary\\data\\UniVocabulary.pkl'
-    dailyWordsTableFile = 'Vocabulary\\data\\DailyWordsTable.pkl'
-    configFile = 'Vocabulary\\settings\\settings.conf'
+    vocabListFile = '.\\data\\VocabList.pkl'
+    currNewVocabsFile = '.\\data\\CurrNewVocab.pkl'
+    currRevVocabsFile = '.\\data\\CurrRevVocab.pkl'
+    uniVocabularyFile = '.\\data\\UniVocabulary.pkl'
+    dailyWordsTableFile = '.\\data\\DailyWordsTable.pkl'
+    configFile = '.\\settings\\settings.conf'
 
     def __init__(self):
         self.vocabList = {}

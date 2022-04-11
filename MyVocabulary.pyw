@@ -53,7 +53,7 @@ class MainFrame(tk.Frame):
         self.pack(expand=tk.YES, fill=tk.BOTH)
         parent.protocol('WM_DELETE_WINDOW', self.onQuit)
         parent.title('My Vocabulary')
-        parent.iconphoto(False, tk.PhotoImage(file='Vocabulary\\img\\icon_report.png'))
+        parent.iconphoto(False, tk.PhotoImage(file='.\\img\\icon_report.png'))
         self.logic = logic.Logic()
         self.logic.windows['MAIN'] = self
         self.logic.windows['Root'] = parent

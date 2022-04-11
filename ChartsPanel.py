@@ -19,7 +19,7 @@ class ChartsPanel(tk.Frame):
         self.logic.windows['CHARTSPANEL'] = self
         parent.protocol('WM_DELETE_WINDOW', self.onQuit)
         parent.title('Charts')
-        parent.iconphoto(False, tk.PhotoImage(file='Vocabulary\\img\\icon_report.png'))
+        parent.iconphoto(False, tk.PhotoImage(file='.\\img\\icon_report.png'))
         self.makeWidgets()
 
     def makeWidgets(self):

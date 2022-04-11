@@ -16,7 +16,7 @@ class WordsCalendar(tk.Frame):
         self.logic.windows['WORDSCALENDER'] = self
         parent.protocol('WM_DELETE_WINDOW', self.onQuit)
         parent.title('Calendar')
-        parent.iconphoto(False, tk.PhotoImage(file='Vocabulary\\img\\icon_report.png'))
+        parent.iconphoto(False, tk.PhotoImage(file='.\\img\\icon_report.png'))
         self.makeWidgets()
         self.setCalendar(initYear, initMonth)
 

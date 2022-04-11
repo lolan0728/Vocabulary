@@ -15,7 +15,7 @@ class WordSearcher(tk.Frame):
         parent.protocol('WM_DELETE_WINDOW', self.onQuit)
         self.logic.windows['WORDSEARCHER'] = self
         parent.title('Word Searcher')
-        parent.iconphoto(False, tk.PhotoImage(file='Vocabulary\\img\\icon_report.png'))
+        parent.iconphoto(False, tk.PhotoImage(file='.\\img\\icon_report.png'))
         self.makeWidgets()
 
     def makeWidgets(self):

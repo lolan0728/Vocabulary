@@ -1,5 +1,5 @@
-/data/backup/
-/build/
-/dist/
-/__pycache__/
+data/backup/
+build/
+dist/
+__pycache__/
 packingCMD.txt

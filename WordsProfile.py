@@ -23,7 +23,7 @@ class WordsProfile(tk.Frame):
         self.reviewsEntry = []
         self.ft = tkFont.Font(size=14)
         parent.title('Words Profile')
-        parent.iconphoto(False, tk.PhotoImage(file='Vocabulary\\img\\icon_report.png'))
+        parent.iconphoto(False, tk.PhotoImage(file='.\\img\\icon_report.png'))
         self.makeWidgets()
 
     def makeWidgets(self):

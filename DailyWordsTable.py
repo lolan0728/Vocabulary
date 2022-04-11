@@ -15,7 +15,7 @@ class DailyWordsTable(tk.Frame):
     def __init__(self, logic, date, wordsTable, parent=None):
         tk.Frame.__init__(self, parent)
         self.pack(expand=tk.YES, fill=tk.BOTH)
-        parent.iconphoto(False, tk.PhotoImage(file='Vocabulary\\img\\icon_report.png'))
+        parent.iconphoto(False, tk.PhotoImage(file='.\\img\\icon_report.png'))
         self.logic = logic
         self.date = date
         self.wordsTable = wordsTable

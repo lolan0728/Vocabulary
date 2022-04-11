@@ -19,7 +19,7 @@ class WordsTableMaker(tk.Frame):
         self.logic.windows['WORDSTABLEMAKER'] = self
         parent.protocol('WM_DELETE_WINDOW', self.onQuit)
         parent.title('New Words')
-        parent.iconphoto(False, tk.PhotoImage(file='Vocabulary\\img\\icon_report.png'))
+        parent.iconphoto(False, tk.PhotoImage(file='.\\img\\icon_report.png'))
         self.makeWidgets()
 
     def makeWidgets(self):
