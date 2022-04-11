@@ -74,7 +74,7 @@ class MainFrame(tk.Frame):
         vbar.pack(side=tk.RIGHT, fill=tk.Y)
         self.canvas.pack(side=tk.TOP, fill=tk.BOTH, expand=tk.YES)
         self.canvas.config(yscrollcommand=vbar.set)
-        vbar.config(command=self.canvas.yview)
+        vbar.config(command=self.canvas.yview) 
 
     def setVocabList(self):
         self.chkNewVocabs = {}
