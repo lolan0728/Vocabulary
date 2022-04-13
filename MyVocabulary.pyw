@@ -12,7 +12,7 @@ import WordsCalendar as wc
 import WordSearcher as ws
 import ChartsPanel as cp
 
-# new git
+# new git 1
 class Processbar(tk.Frame):
     def __init__(self, maxnum, parent=None, process=0, maxBlock=10, width=30):
         tk.Frame.__init__(self, parent)
